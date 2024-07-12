@@ -1,0 +1,36 @@
+/* Footer.css */
+
+.footer {
+    background-color: var(--primary-color);
+    color:var(--nav-text-color);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.social-icons {
+    margin-bottom: 20px; /* Adds gap below social icons */
+}
+
+.social-icons-container {
+    margin-top: 10px; /* Adds gap above social icons */
+}
+
+.social-icons a {
+    color: var(--nav-text-color);
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #555; /* Color of the divider line */
+    margin: 20px 0; /* Space above and below the divider */
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}

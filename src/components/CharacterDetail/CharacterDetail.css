@@ -1,0 +1,88 @@
+.character-detail-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.character-name-outside {
+  font-size: 2em;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.character-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: var(--nav-text-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-image {
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.character-text {
+  flex: 1;
+  font-size: 12px;
+  margin: auto;
+}
+
+.character-description {
+  font-size: 1.2em;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+.detail-character-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.info-item {
+  font-size: 1.2em;
+  color: #495057;
+}
+
+.info-item strong {
+  color: #343a40;
+}
+
+.homeworld-title {
+  font-size: 2em;
+  color: #343a40;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 10px;
+}
+
+.favorite-action-detail {
+  margin-top: 20px;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+.favorite-btn:hover{
+  background-color: none;
+}
+
+.favorite-btn.favorite {
+  color: red;
+}
+
+.favorite-btn:not(.favorite) {
+  color: grey;
+}

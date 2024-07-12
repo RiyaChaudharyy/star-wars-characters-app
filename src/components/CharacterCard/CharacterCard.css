@@ -1,0 +1,76 @@
+.character-card {
+    background-color: var(--nav-text-color);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .character-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .character-image {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .character-card:hover .character-image {
+    transform: scale(1.1);
+  }
+  
+  .character-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .character-name {
+    flex: 1; 
+  }
+  
+  .character-name h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0; 
+    transition: color 0.3s;
+  }
+  .character-name a {
+    text-decoration: none !important; 
+  }
+  
+  .character-card:hover .character-name h3 {
+    color: #555;
+  }
+  
+  .favorite-action {
+    margin-left: 10px; 
+  }
+  
+  .favorite-btn {
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .favorite-btn.favorite {
+    color: red;
+    transform: scale(1.2);
+  }
+  
+  .favorite-btn:disabled {
+    cursor: not-allowed;
+  }
+  
